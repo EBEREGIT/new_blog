@@ -1,0 +1,431 @@
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial Rounded MT Bold";
+}
+
+hr{
+    color: lightgrey;
+}
+
+.wrapper{
+    margin: auto;
+    width: 80%;
+}
+
+header{
+    background-image: url("images/77.jpg");
+    background-color: #2F4F4F;
+    background-blend-mode: soft-light;
+    background-size: 100vw 100vh;
+    height: 100%;
+    color: #fff;
+}
+
+header h1{
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.menu ul {
+    padding-top: 10px;
+    margin-top: 10px;
+    float: right;
+}
+
+.menu li {
+    padding: 10px;
+    margin: 10px;
+    color: #ffffff;
+    display: inline;
+    padding-top: 15px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.menu li a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+
+}
+
+.menu li button{
+    border: 1px solid #33b5e5;
+    background-color: white;
+    padding: 10px;
+    color: #000080;
+    font-weight: bold;
+}
+
+.menu li button:hover{
+    border: 2px solid #33b5e5;
+    background-color: #000080;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    float: right;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 10px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 2px;
+    color: grey;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+
+}
+
+.side-form {
+    padding-top: 50px;
+}
+
+.side-form h4{
+    padding: 0px;
+}
+
+.side-form p{
+    margin-top: -2px;
+    margin-bottom: -2px;
+    font-size: 12px;
+}
+
+.side-form p:last-child{
+    margin-bottom: 20px;
+}
+
+.side-form input[type=text]{
+    border: 0px;
+    background-color: lightgrey;
+    width: 100%;
+    height: 30px;
+}
+
+#check {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#price{
+    float: right;
+}
+
+.side-form button{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: blue;
+    border: 0px;
+}
+
+.side-form button:hover{
+    letter-spacing: 4px;
+    font-weight: bolder;
+}
+
+.vid{
+    padding-top: 52px;
+}
+
+.b_post p{
+    font-size: 12px;
+    line-height: 20px;
+    color: grey;
+}
+
+#b_post{
+    color: grey;
+    padding-left: 3px;
+    font-size: 12px;
+}
+
+#c_post{
+    font-size: 12px;
+    padding-left: 10px;
+    color: #000000;
+}
+
+#f_post{
+    font-size: 12px;
+    color: #000000;
+}
+
+#vid_h{
+    padding-bottom: -10px;
+    margin-bottom: -10px;
+}
+
+.comments img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: grey;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img1{
+
+}
+
+#comment {
+    padding-bottom: -10px;
+    margin-bottom: -10px;
+}
+
+.reply{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.reply p{
+    padding-top: -10px;
+    margin-top: -10px;
+}
+
+#reply{
+    float: right;
+}
+
+#vid_p{
+    padding-bottom: 10px;
+    font-size: 11px;
+}
+
+#vid_n{
+    color: grey;
+}
+
+form{
+    margin: 0px;
+    padding: 0px;
+}
+
+.reply-form input[type=text]{
+    border: 0px;
+    background-color: lightgrey;
+    width: 100%;
+    height: 30px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.reply-form textarea{
+    border: 0px;
+    background-color: lightgrey;
+    width: 100%;
+    height: 200px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.reply-form label{
+    font-size: 11px;
+}
+
+.form_r h3{
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.reply-form button{
+    width: 50%;
+    height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: blue;
+    border: 0px;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.reply-form button:hover{
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+#con{
+    padding-bottom: 70px;
+    margin-bottom: 70px;
+}
+
+#foot{
+    
+}
+
+.foot{
+    padding-top: -40px;
+    padding-left: -15px;
+    margin-top: -40px;
+    margin-left: -15px;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.foot2{
+    padding-left: -20px;
+    margin-left: -20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+footer {
+    background-color: darkgrey;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+
+#f_blog p{
+    font-size: 10px
+}
+
+#f_blog h6{
+    margin-bottom: 3px;
+    padding-bottom: 3px;
+}
+
+#p_blog h6{
+    margin-left: 7px;
+    padding-left: 7px;
+    margin-bottom: -2px;
+    padding-bottom: -2px;
+}
+
+#p_blog img{
+    width: 75px;
+    height: 85px;
+}
+
+#n_blog p{
+    font-size: 10px
+}
+
+#n_blog h6{
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: -2px;
+    padding-bottom: -2px;
+}
+
+#n_blog button{
+    width: 30%;
+    height: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: blue;
+    border: 0px;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+#n_blog button:hover{
+    background-color: #fff;
+    color: blue;
+}
+
+#n_blog input[type=text]{
+    border: 0px;
+    background-color: lightgrey;
+    width: 60%;
+    height: 30px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+#social{
+    background-color: grey;
+}
+.social{
+    text-align: center;
+}
+
+.social li{
+    display: inline;
+    list-style: none;
+}
+
+.social img{
+    width: 25px;
+    height: 25px;
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
